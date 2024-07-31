@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-Coursera</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <nav class="navbar navbar-expand-lg py-1 ps-5">
+      <div class="container-fluid justify-content-start gap-2">
+        <a class="navbar-brand fw-bold text-primary" href="#">COURSERA</a>
+        <button class="btn btn-outline-success" type="submit">Jelajahi</button>
+        <form class="d-flex" style="width: 28em" role="search">
+          <input
+            class="form-control rounded-4"
+            type="search"
+            placeholder="Apa yang ingin Anda pelajari?"
+            aria-label="Search"
+          />
+        </form>
+
+        <div
+          class="collapse navbar-collapse px-5 d-flex justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="d-flex list-unstyled pt-3 gap-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Gelar Online</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Temukan Karier</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-globe-americas"
+                  viewBox="0 0 16 19"
+                >
+                  <path
+                    d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"
+                  />
+                </svg>
+                Bahasa Indonesia
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">Japanese</a></li>
+                <li><a class="dropdown-item" href="#">Arab</a></li>
+                <li><a class="dropdown-item" href="#">German</a></li>
+                <li><a class="dropdown-item" href="#">Rusia</a></li>
+                <li><a class="dropdown-item" href="#">Chinese</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <ul class="list-unstyled">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-person-circle"
+                    viewBox="0 0 16 19"
+                  >
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                    <path
+                      fill-rule="evenodd"
+                      d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                    />
+                  </svg>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                </ul>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Trial Section-->
+    <div
+      class="container-fluid d-flex justify-content-around px-5"
+      style="background-color: #f3f8ff"
+    >
+      <div class="w-50 mt-4 py-5">
+        <div class="fs-2 lh-sm">
+          Akses tak terbatas ke 7.000+ kursus kelas dunia, proyek langsung, dan
+          program sertifikat siap kerja—semua termasuk dalam langganan Anda
+        </div>
+        <div class="mt-4 fw-bold">Rp 960.912/bulan, batalkan kapan saja</div>
+        <button
+          type="button"
+          class="mt-3 fw-semibold btn btn-primary btn-lg rounded-1 px-4"
+        >
+          <div class="py-1" style="font-size: 0.8em; word-spacing: -2px">
+            Mulai 7 hari Masa Percobaan Gratis
+          </div>
+        </button>
+        <div
+          class="mt-3 text-center d-flex w-50 fw-bold"
+          style="margin-left: 25px; font-size: 14px"
+        >
+          <a href="" class="text-decoration-none"
+            >atau Rp 6.498.371/tahun dengan 14-hari jaminan uang kembali</a
+          >
+        </div>
+      </div>
+      <img src="man.png" class="rounded" alt="foto" />
+    </div>
+
+    <!--university section-->
+    <div class="container-fluid mt-4">
+      <div class="d-flex justify-content-center fs-4">
+        Belajar dari&nbsp;<span class="fw-bold">325+</span>&nbsp;universitas dan
+        perusahaan terkemuka dengan Coursera Plus
+      </div>
+      <div class="d-flex justify-content-center">
+        <img
+          src="university.png"
+          class="img-fluid w-75"
+          alt="Responsive image"
+        />
+      </div>
+    </div>
+
+    <!--line-->
+    <hr />
+
+    <!--Benefit-->
+    <div class="container-fluid mt-5 d-flex flex-column">
+      <div class="fw-semibold fs-2 justify-content-center d-flex">
+        Berinvestasilah untuk karier Anda dengan Coursera Plus
+      </div>
+      <div class="justify-content-center d-flex mt-3">
+        <div class="text-center w-50">
+          Dapatkan akses ke video di lebih dari 90% kursus, Spesialisasi, dan
+          Sertifikat Profesional yang diajarkan oleh instruktur terbaik dari
+          universitas dan perusahaan terkemuka.
+        </div>
+      </div>
+
+      <!--card-->
+      <div class="d-flex text-center mx-5 px-5 mb-3" style="margin-top: 4em">
+        <div class="mx-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="currentColor"
+            class="bi bi-compass"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016m6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"
+            />
+            <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+          </svg>
+          <div class="card-body mt-4">
+            <h5 class="card-title">Pelajari apa saja</h5>
+            <p class="card-text mt-2">
+              Jelajahi minat atau topik yang sedang tren, ambil prasyarat, dan
+              tingkatkan keterampilan Anda
+            </p>
+          </div>
+        </div>
+        <div class="mx-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="currentColor"
+            class="bi bi-cash-coin"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8m5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0"
+            />
+            <path
+              d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195z"
+            />
+            <path
+              d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083q.088-.517.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1z"
+            />
+            <path
+              d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 6 6 0 0 1 3.13-1.567"
+            />
+          </svg>
+          <div class="card-body mt-4">
+            <h5 class="card-title">Hemat</h5>
+            <p class="card-text mt-2">
+              Habiskan lebih sedikit uang untuk pembelajaran Anda jika Anda
+              berencana untuk mengambil beberapa kursus tahun ini
+            </p>
+          </div>
+        </div>
+        <div class="mx-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="currentColor"
+            class="bi bi-mortarboard"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z"
+            />
+            <path
+              d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z"
+            />
+          </svg>
+          <div class="card-body mt-4">
+            <h5 class="card-title">Pembelajaran fleksibel</h5>
+            <p class="card-text mt-2">
+              Belajar dengan kecepatan Anda sendiri, berpindah di antara
+              beberapa kursus, atau beralih ke kursus yang berbeda
+            </p>
+          </div>
+        </div>
+        <div class="mx-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="currentColor"
+            class="bi bi-file-earmark-medical"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M7.5 5.5a.5.5 0 0 0-1 0v.634l-.549-.317a.5.5 0 1 0-.5.866L6 7l-.549.317a.5.5 0 1 0 .5.866l.549-.317V8.5a.5.5 0 1 0 1 0v-.634l.549.317a.5.5 0 1 0 .5-.866L8 7l.549-.317a.5.5 0 1 0-.5-.866l-.549.317zm-2 4.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"
+            />
+            <path
+              d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"
+            />
+          </svg>
+          <div class="card-body mt-4">
+            <h5 class="card-title">Sertifikat tanpa batas</h5>
+            <p class="card-text mt-2">
+              Dapatkan sertifikat untuk setiap program pembelajaran yang Anda
+              selesaikan setelah uji coba Anda berakhir tanpa biaya tambahan apa
+              pun
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Course-->
+    <div
+      class="container-fluid mt-5 pt-5 d-flex flex-column text-center"
+      style="background-color: #f4eddf"
+    >
+      <div class="fw-semibold h2">
+        Lihat apa yang dapat Anda pelajari dengan Coursera Plus
+      </div>
+
+      <!--Card-->
+      <div class="d-flex mt-5 mb-3 gap-4 justify-content-center">
+        <div class="card rounded-3" style="width: 18rem">
+          <img
+            src="card2/card1.png"
+            class="card-img-top pt-3 px-3 rounded-5"
+            alt="..."
+            style="width: 18em"
+          />
+
+          <div class="card-body text-start">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img
+                src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png"
+                alt=""
+                class=""
+                style="width: 30px"
+              />
+              <div class="fw-lightbold text-lg">Google</div>
+            </div>
+
+            <h5 class="card-title mb-4">Google AI Essentials</h5>
+            <p class="card-text">Pemula Kursus</p>
+          </div>
+        </div>
+        <div class="card rounded-3" style="width: 18rem">
+          <img
+            src="card2/card2.png"
+            class="card-img-top pt-3 px-3 rounded-5"
+            alt="..."
+            style="width: 18em"
+          />
+          <div class="card-body text-start">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img
+                src="https://brand.umich.edu/assets/brand/style-guide/logo-guidelines/U-M_Logo-Hex.png"
+                alt=""
+                class="rounded"
+                style="width: 30px"
+              />
+              <div class="fw-lightbold text-lg">University of Michigan</div>
+            </div>
+            <h5 class="card-title mb-4">Python untuk Semua Orang</h5>
+            <p class="card-text">Pemula Spesialisasi</p>
+          </div>
+        </div>
+        <div class="card rounded-3" style="width: 18rem">
+          <img
+            src="card2/card3.png"
+            class="card-img-top px-3 pt-3 rounded-5 mb-2"
+            alt="..."
+            style="width: 18em"
+          />
+          <div class="card-body text-start">
+            <div class="d-flex align-items-center">
+              <img
+                src="https://fox17.com/resources/media2/16x9/full/1015/center/80/6ce69a1a-c627-4a26-8113-981281ef3682-large16x9_Vandyathletics.png"
+                alt=""
+                class="rounded"
+                style="width: 33px"
+              />
+              <div class="fw-lightbold text-lg">Vanderbilt University</div>
+            </div>
+            <div class="" style="margin-top: 0.9em">
+              <h5 class="card-title mb-4">Rekayasa Perintah</h5>
+              <p class="card-text">Pemula Spesialisasi</p>
+            </div>
+          </div>
+        </div>
+        <div class="card rounded-3" style="width: 18rem">
+          <img
+            src="card2/card4.png"
+            class="card-img-top px-3 pt-3 rounded-5"
+            alt="..."
+            style="width: 18em"
+          />
+          <div class="card-body text-start">
+            <div class="d-flex align-items-center gap-1 mb-2">
+              <img
+                src="https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg"
+                alt=""
+                style="width: 30px"
+              />
+              <div class="fw-lightbold text-lg">IBM</div>
+            </div>
+            <h5 class="mb-4 card-title">Ilmu Data IBM</h5>
+            <p class="card-text">Pemula Sertifikat Profesional</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-sm d-flex justify-content-start px-5"
+        style="margin-bottom: 9em"
+      >
+        <button
+          type="button"
+          class="btn btn-light btn-outline-primary btn-lg rounded-1 fs-6 fw-semibold"
+        >
+          Tampilkan 8 lainnya
+        </button>
+      </div>
+    </div>
+
+    <!--Search Bar-->
+    <div
+      class="mt-5 text-center fs-2 fw-semibold d-flex justify-content-center flex-column"
+      style="margin-bottom: 2.5em"
+    >
+      <div class="mb-4">Cari 7,000+ kursus di Coursera Plus</div>
+
+      <form class="form-inline container px-5">
+        <input
+          class="form-control mr-sm-2 mb-4 rounded-5"
+          type="search"
+          placeholder="misalnya Pembelajaran Komputer"
+          aria-label="Search"
+        />
+      </form>
+
+      <div class="d-flex justify-content-center">
+        <ul
+          class="list-unstyled d-flex gap-3 fw-normal align-items-center"
+          style="font-size: 0.5em"
+        >
+          <li>
+            <a href="" class="text-dark text-decoration-none fw-bold"
+              >POPULER</a
+            >
+          </li>
+          <li class="py-1 px-3 rounded-5" style="background-color: #f0f0f0">
+            <a href="" class="text-decoration-none">Business</a>
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-decoration-none py-1 px-3 rounded-5"
+              style="background-color: #f0f0f0"
+              >Computer Science</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-decoration-none py-1 px-3 rounded-5"
+              style="background-color: #f0f0f0"
+              >Data Science</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-decoration-none py-1 px-3 rounded-5"
+              style="background-color: #f0f0f0"
+              >Health</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-decoration-none py-1 px-3 rounded-5"
+              style="background-color: #f0f0f0"
+              >Information Technology</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-decoration-none py-1 px-3 rounded-5"
+              style="background-color: #f0f0f0"
+              >Arts and Humanities</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--line-->
+    <hr />
+  </body>
+</html>

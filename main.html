@@ -400,7 +400,7 @@
 
       <form class="form-inline container px-5">
         <input
-          class="form-control mr-sm-2 mb-4 rounded-5"
+          class="form-control mr-sm-2 mb-3 rounded-5"
           type="search"
           placeholder="misalnya Pembelajaran Komputer"
           aria-label="Search"
@@ -466,5 +466,262 @@
 
     <!--line-->
     <hr />
+
+    <!--Review-->
+    <div
+      class="container-fluid d-flex flex-column gap-3 align-items-center w-75 text-center"
+    >
+      <div class="fs-2 fw-semibold">
+        Bergabunglah dengan ribuan pemelajar Coursera Plus yang telah berupaya
+        meraih sasaran mereka
+      </div>
+      <div class="mb-5 w-75">
+        77% pemelajar melaporkan manfaat karier, seperti mendapatkan pekerjaan
+        baru, menerima promosi, memperoleh keterampilan yang dapat diterapkan,
+        dan banyak lagi.
+      </div>
+
+      <!--Card-->
+      <div class="d-flex gap-5">
+        <div class="mx-4" style="width: 18rem">
+          <img
+            src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/4c1519ae23ed104e3b1d4d6fa51ac1ac.png?auto=format%2Ccompress&dpr=1&w=210&h=210&fit=crop"
+            class="card-img-top rounded-circle w-100"
+            alt="..."
+          />
+          <div class="card-body mt-3 text-start">
+            <p class="card-text">
+              "Coursera menawarkan materi berkualitas tinggi yang relevan dengan
+              perkembangan teknologi terbaru, bekerja sama dengan universitas
+              dan perusahaan terkemuka.
+              <span class="fw-bold"
+                >Fleksibilitas waktu yang diberikan memungkinkan Andi, seorang
+                mahasiswa Teknik Informatika dari Indonesia, untuk belajar di
+                sela-sela jadwal kuliah yang padat.</span
+              >
+              Selain itu, sertifikat yang diakui secara luas dapat menambah
+              nilai pada CV dan membantu Andi dalam mencari pekerjaan atau
+              magang. Namun, biaya beberapa kursus premium bisa menjadi beban,
+              dan beberapa kursus mungkin tidak sekomprehensif kuliah di
+              kampus."
+            </p>
+            <div>Siti | Indonesia</div>
+          </div>
+        </div>
+        <div class="mx-4" style="width: 18rem">
+          <img
+            src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/1b0cea526b6c74fa63a856dc5c6c236c.png?auto=format%2Ccompress&dpr=1&w=210&h=210&fit=crop"
+            class="card-img-top rounded-circle w-100"
+            alt="..."
+          />
+          <div class="card-body mt-3 text-start">
+            <p class="card-text">
+              "Coursera menyediakan berbagai kursus spesifik yang relevan untuk
+              Andi, seorang profesional di industri perbankan di Singapura,
+              seperti manajemen risiko, analisis data, dan teknologi keuangan
+              (FinTech).<span class="fw-bold"
+                >Fleksibilitas akses memungkinkan Budi yang sibuk untuk belajar
+                tanpa mengganggu jadwal kerja. Sertifikasi dari Coursera juga
+                dapat meningkatkan kredibilitas dan keterampilan profesional,
+                membantu dalam pengembangan karirnya.</span
+              >
+              Namun, keterlibatan dengan instruktur dan sesama peserta bisa
+              terbatas, dan beberapa kursus mungkin kurang memberikan pengalaman
+              praktik langsung yang diperlukan di dunia nyata."
+            </p>
+            <div>Andi | Singapura</div>
+          </div>
+        </div>
+        <div class="mx-4" style="width: 18rem">
+          <img
+            src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/fe1400b5e7961760164fc58ea2737840.png?auto=format%2Ccompress&dpr=1&w=210&h=210&fit=crop"
+            class="card-img-top rounded-circle w-100"
+            alt="..."
+          />
+          <div class="card-body mt-3 text-start">
+            <p class="card-text">
+              "Coursera sangat cocok untuk Citra, seorang ibu rumah tangga di
+              Malaysia, karena aksesibilitasnya yang memungkinkan belajar dari
+              rumah sambil mengurus rumah tangga.<span class="fw-bold">
+                Platform ini menawarkan pilihan kursus beragam, mulai dari
+                keterampilan dasar komputer hingga pengembangan pribadi, yang
+                dapat membantu dalam berbagai aspek kehidupan.</span
+              >
+              Tersedia banyak kursus gratis yang bisa diikuti tanpa biaya.
+              Namun, dibutuhkan disiplin diri yang tinggi untuk menyelesaikan
+              kursus online tanpa pengawasan langsung, dan bagi yang kurang
+              terbiasa dengan teknologi, mungkin perlu waktu untuk menyesuaikan
+              diri dengan platform online."
+            </p>
+            <div>Citra | France</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5 pt-5 fs-5">
+        Sumber: Coursera Learner Outcomes Survey 2023
+      </div>
+    </div>
+
+    <!--Price-->
+    <div
+      class="container-fluid mt-5 pt-5 d-flex flex-column text-center justify-content-center"
+      style="background-color: #f4eddf"
+    >
+      <div class="fw-bold fs-1 mb-4">
+        Pilih paket yang tepat untuk tujuan Anda atau tim Anda
+      </div>
+      <div
+        class="container mb-3 rounded-pill d-flex justify-content-center align-items-center"
+        style="width: 320px; height: 60px; background: #fff"
+      >
+        <div class="form-box justify-content-center d-flex">
+          <div class="button-box d-flex rounded-pill">
+            <div id="btn" class="bg-primary rounded-pill"></div>
+            <button
+              type="button"
+              class="toggle-btn fw-semibold"
+              onclick="leftClick()"
+            >
+              Untuk Individu
+            </button>
+            <button
+              type="button"
+              class="toggle-btn fw-semibold"
+              onclick="rightClick()"
+            >
+              Untuk Tim
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container w-75 mb-4">
+        <div class="fs-1 text-start">Percepat kinerja tim</div>
+        <div class="fs-5 text-start mt-2">
+          Bantu karyawan menguasai keterampilan baru dan mencapai tujuan mereka
+          dengan akses ke program pembelajaran kelas dunia dari Coursera for
+          Teams.
+        </div>
+      </div>
+
+      <div
+        class="w-25 justify-content-center d-flex flex-column shadow-lg container border border-primary"
+        style="background-color: #fff; margin-bottom: 5em"
+      >
+        <div class="mb-2">
+          <div class="mt-5 fs-4 fw-bold">Course untuk Tim</div>
+          <div class="mt-2 fs-6 fw-semibold">Untuk 5-125 Pengguna</div>
+          <div class="mt-3 fs-1 fw-bold">US$399 /tahun</div>
+          <div class="mt-1 fs-6 fw-light">Per pengguna selama 12 bulan</div>
+          <button
+            type="button"
+            style="padding: 10px 4.7em"
+            class="btn btn-primary btn-lg mt-3 fs-6 fw-semibold rounded-1"
+          >
+            MEMULAI
+          </button>
+          <div class="mt-4 fw-semibold fs-6 mb-4">
+            14-hari jaminan uang kembali
+          </div>
+
+          <!--list-->
+          <div class="text-start">
+            <ul class="list-unstyled w-100">
+              <hr />
+              <div
+                class="d-flex justify-content-center align-items-center gap-2 my-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="#5271ff"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                  />
+                </svg>
+                <li class="" style="font-size: 14px">
+                  Tingkatkan keterampilan 5 hingga 125 karyawan
+                </li>
+              </div>
+              <hr />
+              <div
+                class="d-flex justify-content-center align-items-center gap-2 my-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="#5271ff"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                  />
+                </svg>
+                <li class="" style="font-size: 14px">
+                  Akses tak terbatas ke 8.500 kesempatan belajar
+                </li>
+              </div>
+              <hr />
+              <div
+                class="d-flex justify-content-center align-items-center gap-2 my-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="#5271ff"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                  />
+                </svg>
+                <li class="" style="font-size: 14px">
+                  Alat peluncuran dan pengaturan program
+                </li>
+              </div>
+              <hr />
+              <div
+                class="d-flex justify-content-center align-items-center gap-2 mt-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="#5271ff"
+                  class="bi bi-check-lg"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                  />
+                </svg>
+                <li class="" style="font-size: 14px">
+                  Dasbor analisis dan penentuan tolok ukur
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Question-->
+    <div class="container-fluid py-5" style="background-color: #dbeef6">
+      <div class="w-75 container">
+        <div class="fw-semibold fs-1">Pertanyaan yang sering diajukan</div>
+        <ul class="mb-4">
+          <div><li></li></div>
+        </ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>

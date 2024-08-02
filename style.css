@@ -7,3 +7,33 @@
 body {
   margin-bottom: 10em;
 }
+
+.button-box {
+  width: 280px;
+  margin: 35px auto;
+  position: relative;
+  border-radius: 30px;
+  background: #fff;
+}
+
+.toggle-btn {
+  padding: 10px 40px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  text-align: center;
+  font-size: 10px;
+}
+
+#btn {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 170px;
+  height: 100%;
+  border-radius: 30px;
+
+  transition: 0.5s;
+}
